@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ADM.AND REG.FORM</title>
+        
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        NAME:-
+                    </td>
+                    <td>
+                        <input type="text" placeholder="" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        FATHER's NAME:-
+                    </td>
+                    <td>
+                        <input type="text" placeholder="" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        MOTHER's NAME:-
+                    </td>
+                    <td>
+                        <input type="text" placeholder="" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        DATE OF DOB:-
+                    </td>
+                    <td>
+                        <input type="text" placeholder="mm/dd/yyyy  " name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        LANGUAGE:- ENGLISH 
+                    </td>
+                    <td>
+                        <input type="checkbox" placeholder="" enlgish="">
+                        HINDI
+                        <input type="checkbox" placeholder="" hindi="">
+                    </td>
+                    <tr>
+                        <td>
+                            GENDER:- MALE
+                        </td>
+                        <td>
+                        <input type="radio" placeholder="" enlgish="">
+                            FEMALE
+                        <input type="radio" placeholder="" enlgish="">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            MOBILE NUM:-
+                        </td>
+                        <td>
+                            <input type="number" placeholder="" mobile num="">
+                        </td>
+                        <td>
+                            AAdhar NUM:-
+                        </td>
+                        <td>
+                            <input type="number" placeholder="" aadhar num="">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            gender
+                        </td>
+                        <td>
+                            <select class="form-control" id="StudentGender" name="StudentGender">
+                                <option>Select Gender</option> 
+                                <option>Male</option> 
+                                <option>Female</option> 
+                                <option>other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <td>
+                        
+                    </td>
+                    
+                </tr>
+                <center><h1><b>ADM.AND REG.FORM</b></h1><center></center>
+            </table>
+        </form>
+    </body>
+</html>
